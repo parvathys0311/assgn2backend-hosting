@@ -45,7 +45,7 @@ button.addEventListener('click', function () {
 
 // JSON //
 
-fetch('http://localhost:3000/api/destinations') 
+fetch('https://ta-heroku-atlas.herokuapp.com/api/destinations') 
   .then(function(response) {
     return response.json();
   })
